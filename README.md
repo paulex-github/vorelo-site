@@ -29,6 +29,13 @@ No custom domain is configured.
 - Preview with `python3 -m http.server 8000 --bind 127.0.0.1 --directory docs`.
 - Changes pushed to `main` publish after Pages has been enabled.
 
+## Brand assets
+
+The header logo and favicon are unmodified copies of the plugin's published
+WordPress.org icons (256px and 128px respectively), verified on 12 November 2026.
+The offline checks verify their SHA-256 hashes and their use on all pages.
+Do not introduce a separate logo for the documentation website.
+
 Only document features present in the WordPress.org edition. Do not publish
 roadmap promises, customer names, screenshots with private data, internal security
 reports or sales/checkout functionality here. No analytics, forms or remote fonts
